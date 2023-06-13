@@ -2,11 +2,12 @@
   background-color: cornflowerblue;
 }
 
-h1 {
+h5 {
   text-align: center;
   color: darkseagreen;
 }
 
+/* Begin Game Board Styles */
 #game-board {
   display: flex;
   align-items: center;
@@ -34,3 +35,30 @@ h1 {
 .letter-row {
   display: flex;
 }
+/* EndGame Board Styles */
+
+/* Begin Keyboard Styles */
+#keyboard-cont {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#keyboard-cont div {
+  display: flex;
+}
+
+.second-row {
+  margin: 0.5rem 0;
+}
+
+.keyboard-button {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  margin: 0 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+/* End Keyboard Styles */
